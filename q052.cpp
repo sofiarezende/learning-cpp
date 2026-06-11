@@ -7,21 +7,21 @@ using namespace std;
 // n = 6557
 
 int main() {
-    long long D_binario;
+    long long D_binario = 1011101011101;
     long long b_linha;
-    long long n;
+    long long n = 6557;
 
     //pedindo o bloco criptografado (b linha)
     cout << "Digite o bloco criptografado (b_linha): ";
     cin >> b_linha;
 
     //pedindo o expoente D em binário
-    cout << "Digite o valor de D em binario: ";
-    cin >> D_binario;
+    //cout << "Digite o valor de D em binario: ";
+    //cin >> D_binario;
 
     //pedindo o módulo n
-    cout << "Digite o valor do modulo (n): ";
-    cin >> n;
+    //cout << "Digite o valor do modulo (n): ";
+    //cin >> n;
 
     // As variáveis do algoritmo começam com base nos dados lidos
     long long x = 1;                           // x := 1 (conforme o livro)
@@ -30,7 +30,7 @@ int main() {
     for (int k = 0; D_binario > 0; k++) {
         int a_k = D_binario % 10; // Pega o bit atual (0 ou 1)
         
-        cout << "i= " << k << ", a" << k << "= " << a_k << endl;
+        //cout << "i= " << k << ", a" << k << "= " << a_k << endl;
         //irei construir o algoritimo aqui dentro porque
         //aproveita que a potencia é a mesma para todos
 
