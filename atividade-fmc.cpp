@@ -38,4 +38,4 @@ int main() {
 
     return 0;
 }
-//g++ q052.cpp -o q052 && ./q052
+//g++ atividade-fmc.cpp -o teste && ./teste
